@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<title>Revenue Forecaster by Baremetrics</title>
+<meta name="description" content="Forecast and predict your SaaS revenue with the Baremetrics Revenue Forecaster">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+<meta property="og:title" content="Revenue Forecaster by Baremetrics">
+<meta property="og:image" content="http://forecast.baremetrics.io/img/facebook_cover.jpg">
+<meta property="og:url" content="http://forecast.baremetrics.io">
+<meta property="og:description" content="Forecast and predict your SaaS revenue with the Baremetrics Revenue Forecaster">
+<meta property="og:site_name" content="Revenue Forecaster by Baremetrics">
+<meta property="og:type" content="website">
+<meta property="twitter:account_id" content="4503599627572353">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Baremetrics">
+<meta name="twitter:creator" content="@Baremetrics">
+<meta name="twitter:title" content="Revenue Forecaster by Baremetrics">
+<meta name="twitter:description" content="Forecast and predict your revenue with the Baremetrics Revenue Forecaster">
+<meta name="twitter:image:src" content="http://forecast.baremetrics.io/img/facebook_cover.jpg">
+<meta property="fb:admins" content="61700024">
+<link rel="stylesheet" href="css/application.css"/>
+<script src="js/vendor/underscore.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/d3.js"></script>
+<script src="js/vendor/autoNumeric.js"></script>
+<script src="js/vendor/animateNumber.js"></script>
+<script src="js/vendor/waypoint.js"></script>
+<script src="https://use.typekit.net/ser3inc.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+<header>
+</a>
+<h1 class="title">Unicorn Hunt Revenue Forecaster</h1>
+</header>
+<section class="forecast" id="forecast">
+<h3 class="explain">In <span class="time blue">12</span> months with <span class="growth blue">$5000</span> <span class="type blue">linear</span> growth and <span class="churn red">3%</span> churn, your MRR will be <span class="total green">$21,087</span></h3>
+<div class="controls">
+<a href="index.html#forecast" class="reset">Reset</a>
+<div class="textainer">
+<label for>Starting MRR:</label>
+<input class type="text" value="5000" name="start">
+</div>
+<div class="toggletainer">
+<label for>Growth Type:</label>
+<span class="lin blue">Linear</span>
+<div class="toggle">
+<input type="checkbox" class="check">
+<b class="b switch"></b>
+<b class="b track"></b>
+</div>
+<span class="exp">Exponential</span>
+</div>
+<div class="textainer">
+<label for>Revenue Growth:</label>
+<input class type="text" value="2000" name="growth">
+</div>
+<div class="textainer">
+<label for>Revenue Churn:</label>
+<input class="red" type="text" value="5" name="churn">
+</div>
+<div class="textainer">
+<label for>Projection Time:</label>
+<input type="text" value="12" name="time">
+<span>Months</span>
+</div>
+<p>*Note: Linear growth is more realistic for long term forecasting as exponential is rarely sustainable.</a></p>
+</div>
+<div class="graph"></div>
+</section>
+<section>
+  <div class="calculator" style="
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 0 2%;
+  ">
+    <div class="omni-calculator omni-calculator-loaded" data-calculator="business/pre-and-post-money-valuation" data-width="300" data-config="{}" data-currency="EUR" data-show-row-controls="false" data-parsed="1" style="width: 300px; visibility: visible; opacity: 1; display: block; margin: 0px; padding: 0px; font-family: Arial, sans-serif; font-size: 16px; color: rgb(102, 102, 102); box-sizing: border-box; background: rgb(249, 249, 249); border: 1px solid rgb(238, 238, 238); border-radius: 8px;">
+    <div class="omni-calculator-header" style="visibility: visible; opacity: 1; display: block; padding: 20px 0px; font-size: 24px; text-align: center; background: rgb(238, 238, 238); border-top-left-radius: 8px; border-top-right-radius: 8px;">Pre-Money and Post-Money Valuation Calculator</div>
+    <iframe class="omni-calculator-frame" data-calculator-id="1" src="https://www.omnicalculator.com/embed/business/pre-and-post-money-valuation#id=1" style="visibility: visible; opacity: 1; display: block; border: none; width: 100%; margin: 0px; padding: 0px; height: 256px;"></iframe><div class="omni-calculator-footer" style="visibility: visible; opacity: 1; display: block; margin: 16px 12px 20px 16px; text-align: right;">
+      <a href="https://www.omnicalculator.com/business/pre-and-post-money-valuation" style="visibility: visible; opacity: 1; display: inline; color: rgb(152, 156, 157); text-decoration: none; border: 0px; box-shadow: none;">Pre-Money and Post-Money Valuation Calculator</a> by <a class="omni-calculator-img-link" href="https://www.omnicalculator.com" style="visibility: visible; opacity: 1; display: inline-block; color: rgb(152, 156, 157); text-decoration: none; border: 0px; box-shadow: none; text-indent: 100%; white-space: nowrap; overflow: hidden; width: 51px; height: 13px; background: url(&quot;https://cdn.omnicalculator.com/images/omni-db2e5a9837.svg&quot;) no-repeat;">Omni</a>
+    </div>
+  </div>
+  </div>
+  
+</div>
+</div>
+<script async src="https://cdn.omnicalculator.com/sdk.js"></script>
+<script src="js/misc.js"></script>
+<script src="js/graph.js"></script>
+<script src="js/controls.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>
